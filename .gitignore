@@ -1,0 +1,14 @@
+# 隐私文件：不上传
+求职档案.md
+人生笔记.md
+行动计划.md
+
+# Python 虚拟环境与缓存：不上传
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE 私有配置：不上传
+.idea/
+.vscode/
