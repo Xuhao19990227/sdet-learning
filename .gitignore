@@ -3,6 +3,9 @@
 人生笔记.md
 行动计划.md
 
+# 求职材料：不上传（含浏览器登录态 .browser_profile、JD 样本、截图）
+求职/
+
 # Python 虚拟环境与缓存：不上传
 .venv/
 venv/
@@ -12,3 +15,5 @@ __pycache__/
 # IDE 私有配置：不上传
 .idea/
 .vscode/
+"���Կ���/�׶�1-Python����/��ϰ/week3/server.log" 
+���Կ���/�׶�1-Python����/��ϰ/week3/*.txt 
