@@ -15,5 +15,9 @@ __pycache__/
 # IDE 私有配置：不上传
 .idea/
 .vscode/
-"���Կ���/�׶�1-Python����/��ϰ/week3/server.log" 
-���Կ���/�׶�1-Python����/��ϰ/week3/*.txt 
+
+# 练习产物（跑脚本可再生成，不入库；week3 的 4 个产物已随首次提交入库，留作验收证据）
+*.log
+测试开发/*/练习/**/report.txt
+测试开发/*/练习/**/results.txt
+测试开发/*/练习/**/*_report.txt
