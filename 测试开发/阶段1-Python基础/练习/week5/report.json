@@ -1,0 +1,26 @@
+{
+  "total": 5,
+  "passed": 4,
+  "results": [
+    {
+      "case_id": "TC001",
+      "status": "PASS"
+    },
+    {
+      "case_id": "TC002",
+      "status": "FAIL"
+    },
+    {
+      "case_id": "TC003",
+      "status": "PASS"
+    },
+    {
+      "case_id": "TC004",
+      "status": "PASS"
+    },
+    {
+      "case_id": "TC005",
+      "status": "PASS"
+    }
+  ]
+}

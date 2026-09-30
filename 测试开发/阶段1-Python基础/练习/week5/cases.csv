@@ -1,0 +1,6 @@
+case_id,name,api,expected_status,expected_msg
+TC001,登录成功,/login,200,success
+TC002,支付成功,/pay,200,success
+TC003,查询订单,/order,200,success
+TC004,加入购物车,/cart,200,success
+TC005,退出登录,/logout,200,success

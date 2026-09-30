@@ -1,0 +1,7 @@
+case_id,name,api,expected_status,expected_msg
+TC001,登录成功,/login,200,success
+TC002,支付成功,/pay,200,success
+TC003,状态码非法,/order,abc,success
+TC004,未知接口,/unknown,200,success
+TC005,加入购物车,/cart,200,success
+TC006,退出登录,/logout,200,success
