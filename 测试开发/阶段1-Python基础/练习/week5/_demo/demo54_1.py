@@ -63,6 +63,7 @@ for case_id in suite:           # 自定义对象照样能 for——只要实现
     print(f"自定义迭代器: {case_id}")
 
 # --- 5) 大坑：迭代器是一次性的（list 可反复 for，迭代器不行）---
-print(f"suite 已取完，再 list() 一次: {list(suite)}")   # 空列表！index 状态记在实例上
+print(f"suite 已取完，再 list() 一次: {list(suite)}")
+# 空列表！index 状态记在实例上
 suite2 = CaseIterator(["TC201", "TC202"])
 print(f"换个新迭代器才有货: {list(suite2)}")            # list() 内部同样走协议逐个 next()
