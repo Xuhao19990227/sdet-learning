@@ -43,7 +43,7 @@ def classify(cost):
         return "ERROR"
     elif cost > TIMEOUT_SECONDS:  # 耗时超过阈值 → 超时（注意规格用 > 而不是 >=）
         return "TIMEOUT"
-    else: #  # 其余所有值（≤ TIMEOUT_SECONDS，含负数——见思考题 3 实验）→ OK
+    else:  # 其余所有值（≤ TIMEOUT_SECONDS，含负数——见思考题 3 实验）→ OK
         return "OK"
 
 
@@ -77,5 +77,4 @@ if __name__ == "__main__":
     # TC004 ERROR None
     # --- 报告文件名 ---
     # report_20261018_203105.txt
-    # 不合理，因为耗时不可能是负数，我会在classify这个函数给耗时小于的单独返回一个字符串，标志为耗时为负数的错误
-    
+    # 不合理，因为耗时不可能是负数，我会在classify这个函数给耗时小于0的单独返回一个字符串，标志为耗时为负数的错误
